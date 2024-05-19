@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+h1{
+    color: #E4B50B;
+    font-size: 50px;
+    font-family:  'Roboto Mono', monospace;
+}
+body{
+    background-color: #005938;
+    text-align: center;
+}
+.container{
+    padding-top: 20px;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:1.5vmin;
+}
+.box{   
+    height:18vmin;
+    width: 18vmin;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.5);
+    background-color: #e8f1f2;
+    font-size:15vmin ;
+    color: rgb(237, 158, 11); 
+}
+#restart{
+    padding: 1rem;
+    font-size: 20px;
+    background-color: rgb(237, 255, 124);
+    border-radius: 1rem;
+    border: none;
+}
+#reset-btn{
+    background-color: #E4B50B;
+    color: aliceblue;
+    width: 100px;
+    height: 50px;
+    border-radius: 2rem;
+    border: 1rem;
+    font-size: 20px;
+}
+#new-btn{
+    background-color: #E4B50B;
+    color: aliceblue;
+    width: 150px;
+    height: 50px;
+    border-radius: 2rem;
+    border: 1rem;
+    font-size: 20px;
+}
+
+#msg{
+    color: #e8f1f2;
+    font-size: 8vmin;
+}
+
+.msg-container{
+    min-height: 100vmin;
+    display: flex;
+    justify-content:center ;
+    align-items:center ;
+    flex-direction: column;
+    gap:4rem;
+}
+.hide{
+    display: none;
+}
